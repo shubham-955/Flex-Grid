@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Matches</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        padding: 70px;
+    }
+
+    .sub-container {
+        height: 100%;
+        background-color: #212227;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .ind-box {
+        width: 100%;
+        margin: 30px 20px;
+    }
+
+    .ind-box-title {
+        height: 10%;
+        display: flex;
+        align-items: center;
+    }
+
+    .ind-box-title p {
+        color: white;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+
+    .image-section {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .image-section img {
+        width: 100%;
+        height: 100%;
+        margin: 0 0 5px 0;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="sub-container">
+            <div class="ind-box">
+                <div class="ind-box-title">
+                    <p>Next Match</p>
+                </div>
+                <div class="image-section">
+                    <img src="./Src/Match1.png">
+                    <img src="./Src/Match3.png">
+                    <img src="./Src/Match5.png">
+                </div>
+            </div>
+            <div class="ind-box">
+                <div class="ind-box-title">
+                    <p>Recent Results</p>
+                </div>
+                <div class="image-section">
+                    <img src="./Src/Match2.png">
+                    <img src="./Src/Match4.png">
+                    <img src="./Src/Match6.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
